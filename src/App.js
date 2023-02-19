@@ -20,6 +20,7 @@ export default class App extends Component {
           onChange={ (e) => this.setState({searTerm: e.target.value})} 
           />
         </form>
+        <p>Searched term: {searTerm}</p>
       </>
     )
   }
