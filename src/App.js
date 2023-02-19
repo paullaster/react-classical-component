@@ -11,8 +11,8 @@ export default class App extends Component {
     const {searTerm} = this.state;
     return (
       <form>
-        <label for="search_term"></label>
-        <input type="text" id="search_term" name="searchTerm" value="" />
+        <label for="search_term">Search</label>
+        <input type="text" id="search_term" name="searchTerm" />
       </form>
     )
   }
