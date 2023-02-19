@@ -8,6 +8,7 @@ export default class App extends Component {
     };
   }
   render() {
+    const {searTerm} = this.state;
     return (
       <div>App</div>
     )
