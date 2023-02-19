@@ -10,15 +10,9 @@ export default class App extends Component {
   render() {
     const {searTerm} = this.state;
     return (
-      <form>
-        <label for="search_term">Search</label>
-        <input 
-        type="text" 
-        id="search_term" 
-        name="searchTerm"
-        onChange={ (e) => this.setState({searTerm: e.target.value})} 
-        />
-      </form>
+      <>
+      
+      </>
     )
   }
 }
