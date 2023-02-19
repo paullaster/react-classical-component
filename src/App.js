@@ -12,7 +12,12 @@ export default class App extends Component {
     return (
       <form>
         <label for="search_term">Search</label>
-        <input type="text" id="search_term" name="searchTerm" />
+        <input 
+        type="text" 
+        id="search_term" 
+        name="searchTerm"
+        onChange={ (e) => this.setState({searTerm: e.target.value})} 
+        />
       </form>
     )
   }
